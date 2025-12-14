@@ -15,6 +15,7 @@ using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.OpenIddict.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
+using ZSpace.WebApi.Projects;
 
 namespace ZSpace.WebApi.EntityFrameworkCore;
 
@@ -29,6 +30,7 @@ public class WebApiDbContext :
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
 
     public DbSet<Book> Books { get; set; }
+    public DbSet<Project> Projects { get; set; }
 
     #region Entities from the modules
 
@@ -97,5 +99,7 @@ public class WebApiDbContext :
         //    b.ConfigureByConvention(); //auto configure for the base class props
         //    //...
         //});
+
+        builder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
     }
 }
