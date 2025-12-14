@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/ZSpace.WebApi.Domain/ZSpace.WebApi.Domain.csproj" />
+        <Project Path="src/ZSpace.WebApi.Application/ZSpace.WebApi.Application.csproj" />
+        <Project Path="src/ZSpace.WebApi.EntityFrameworkCore/ZSpace.WebApi.EntityFrameworkCore.csproj" />
+        <Project Path="src/ZSpace.WebApi.Domain.Shared/ZSpace.WebApi.Domain.Shared.csproj" />
+        <Project Path="src/ZSpace.WebApi.Application.Contracts/ZSpace.WebApi.Application.Contracts.csproj" />
+        <Project Path="src/ZSpace.WebApi.HttpApi/ZSpace.WebApi.HttpApi.csproj" />
+        <Project Path="src/ZSpace.WebApi.HttpApi.Client/ZSpace.WebApi.HttpApi.Client.csproj" />
+        <Project Path="src/ZSpace.WebApi.DbMigrator/ZSpace.WebApi.DbMigrator.csproj" />
+        <Project Path="src/ZSpace.WebApi.HttpApi.Host/ZSpace.WebApi.HttpApi.Host.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/ZSpace.WebApi.Application.Tests/ZSpace.WebApi.Application.Tests.csproj" />
+        <Project Path="test/ZSpace.WebApi.EntityFrameworkCore.Tests/ZSpace.WebApi.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/ZSpace.WebApi.TestBase/ZSpace.WebApi.TestBase.csproj" />
+        <Project Path="test/ZSpace.WebApi.Domain.Tests/ZSpace.WebApi.Domain.Tests.csproj" />
+        <Project Path="test/ZSpace.WebApi.HttpApi.Client.ConsoleTestApp/ZSpace.WebApi.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

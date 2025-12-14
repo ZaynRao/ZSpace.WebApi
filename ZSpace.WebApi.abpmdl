@@ -1,0 +1,109 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.0.1",
+      "isInstalled": true,
+      "creationTime": "12/14/2025 12:05:24 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ZSpace.WebApi.Application": {
+      "path": "src/ZSpace.WebApi.Application/ZSpace.WebApi.Application.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.Application.Tests": {
+      "path": "test/ZSpace.WebApi.Application.Tests/ZSpace.WebApi.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "ZSpace.WebApi.Domain.Shared": {
+      "path": "src/ZSpace.WebApi.Domain.Shared/ZSpace.WebApi.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.Application.Contracts": {
+      "path": "src/ZSpace.WebApi.Application.Contracts/ZSpace.WebApi.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.HttpApi": {
+      "path": "src/ZSpace.WebApi.HttpApi/ZSpace.WebApi.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.HttpApi.Client": {
+      "path": "src/ZSpace.WebApi.HttpApi.Client/ZSpace.WebApi.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.EntityFrameworkCore.Tests": {
+      "path": "test/ZSpace.WebApi.EntityFrameworkCore.Tests/ZSpace.WebApi.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "ZSpace.WebApi.EntityFrameworkCore": {
+      "path": "src/ZSpace.WebApi.EntityFrameworkCore/ZSpace.WebApi.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.TestBase": {
+      "path": "test/ZSpace.WebApi.TestBase/ZSpace.WebApi.TestBase.abppkg",
+      "folder": "test"
+    },
+    "ZSpace.WebApi.Domain.Tests": {
+      "path": "test/ZSpace.WebApi.Domain.Tests/ZSpace.WebApi.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "ZSpace.WebApi.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ZSpace.WebApi.HttpApi.Client.ConsoleTestApp/ZSpace.WebApi.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "ZSpace.WebApi.DbMigrator": {
+      "path": "src/ZSpace.WebApi.DbMigrator/ZSpace.WebApi.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.HttpApi.Host": {
+      "path": "src/ZSpace.WebApi.HttpApi.Host/ZSpace.WebApi.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "ZSpace.WebApi.Domain": {
+      "path": "src/ZSpace.WebApi.Domain/ZSpace.WebApi.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
